@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(231, 221, 196);
+    border: 10px solid black;
+  }
+  
+  h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+  
+  input, button {
+    background-color: rgb(185, 147, 134);
+    color: rgb(41, 43, 44);
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    background: #fff;
+    margin: 5px 0;
+    border-radius: 10px;
+  }
+  
+  li button.delete-btn, li button.edit-btn {
+    margin-left: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  li button.delete-btn {
+    background-color: lightslategray;
+    color: #fff;
+  }
+  
+  li button.edit-btn {
+    background-color:lightslategray;
+    color: #fff;
+  }
+  
